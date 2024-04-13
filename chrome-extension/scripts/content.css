@@ -1,0 +1,8 @@
+.top-image {
+    position: relative;
+    z-index: 1; /* Đảm bảo hình ảnh đầu tiên nằm trên cùng */
+}
+
+.bottom-image {
+    position: static;
+}
