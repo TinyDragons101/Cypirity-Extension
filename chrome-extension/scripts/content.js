@@ -23,19 +23,18 @@ function get_image_data() {
 }
 
 function get_selected_text() {
-  document.addEventListener("DOMContentLoaded", function() {
-    document.addEventListener("mouseup", function() {
-        var selectedText = window.getSelection().toString();
-        if(selectedText !== "") {
-            console.log("Selected text: " + selectedText);
-            // Do something with the selected text here
-        }
-    });
-  });
+  var selectedText = window.getSelection().toString();
+  console.log(1231233);
+  if(selectedText !== "") {
+    console.log("Selected text: " + selectedText);
+    // Do something with the selected text here
+  }
 }
 
+window.resizeTo(window.innerWidth, 500);
+console.log(window.innerWidth);
 
-// get_image_data();
+get_image_data();
 // get_text_data();
 get_selected_text();
 
