@@ -7,3 +7,20 @@
     position: static;
     z-index: 999; /* Đảm bảo hình ảnh đầu tiên nằm trên cùng */
 }
+
+/* style.css */
+/* style.css */
+#customOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 36px; /* Đây là nơi bạn có thể điều chỉnh kích thước chữ */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
