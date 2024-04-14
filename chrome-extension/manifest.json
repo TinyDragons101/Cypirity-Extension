@@ -5,7 +5,11 @@
     "permissions": [
         "tabs",
         "bookmarks",
-        "downloads"
+        "activeTab",
+        "contextMenus",
+        "scripting",
+        "storage",
+        "webNavigation"
     ],
     "background": {
         "service_worker": "background.js"
