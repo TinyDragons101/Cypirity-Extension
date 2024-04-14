@@ -5,7 +5,10 @@
     "permissions": [
         "tabs",
         "bookmarks",
-        "downloads",
+        "activeTab",
+        "contextMenus",
+        "scripting",
+        "storage",
         "webNavigation"
     ],
     "background": {
