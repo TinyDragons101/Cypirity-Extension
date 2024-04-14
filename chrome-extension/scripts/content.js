@@ -31,12 +31,9 @@ function get_selected_text() {
   }
 }
 
-window.resizeTo(window.innerWidth, 500);
-console.log(window.innerWidth);
-
-get_image_data();
+// get_image_data();
 // get_text_data();
-get_selected_text();
+// get_selected_text();
 
 
 // Tạo một thẻ div để chứa cả hai hình ảnh
@@ -83,7 +80,7 @@ dogTextContainer.style.position = 'relative';
 dogTextContainer.style.zIndex = '100';
 dogTextContainer.style.transform = 'translate(-150px, 0)';
 
-var dog_text = "lòng mình sẽ không gửi tiền qua những số tài khoản lạ";
+var dog_text = "Chị ơi chị giúp em với, em cũng ngại lắm nhưng em hết cách rồi";
 var dogText = document.createElement('div');
 dogText.textContent = dog_text;
 dogText.style.whiteSpace = 'normal';
@@ -100,8 +97,4 @@ overlayElement.appendChild(dogTextContainer);
 // Thêm hình ảnh phía trên vào thẻ div
 containerDiv.appendChild(overlayElement);
 containerDiv.appendChild(imageElement);
-
-// Thêm thẻ div chứa cả hai hình ảnh vào body của trang
-document.body.appendChild(containerDiv);
-
 

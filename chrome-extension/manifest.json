@@ -5,7 +5,8 @@
     "permissions": [
         "tabs",
         "bookmarks",
-        "downloads"
+        "downloads",
+        "webNavigation"
     ],
     "background": {
         "service_worker": "background.js"

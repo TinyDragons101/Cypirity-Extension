@@ -1,0 +1,1 @@
+document.body.innerHTML = "This website is blocked."; // Replace with your custom message
